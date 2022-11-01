@@ -1,5 +1,6 @@
 import pytest
-from src.github_user import some_func
+from github_user.user_info import some_func
+
 
 def test_some_func():
-    assert some_func() == list
+    assert some_func() == "test-str"
