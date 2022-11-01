@@ -1,0 +1,25 @@
+[build-system]
+build-backend = "flit_core.buildapi"
+requires = ["flit_core >=3.7.1,<4"]
+
+[project]
+name = "github_user"
+authors = [
+    {name = "Sebastian Kozlowski", email = "skozlowski@vp.pl"},
+]
+readme = "README.md"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+]
+requires-python = ">=3.6"
+dynamic = ["version", "description"]
+
+dependencies = [
+    "requests >=2.6"
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest >=2.7.3",
+    "pytest-cov",
+]
