@@ -1,7 +1,9 @@
 :root {
   --color-light: #ecf0f3;
-  --color-gray: #dee2e6;
+  --color-gray: #f8f9fcaf;
   --color-light-blue: #e3f2fd;
+  --color-white: #fff;
+
 }
 
 body {
@@ -10,15 +12,4 @@ body {
   overflow-x: hidden;
   background-color:var(--color-gray);
 }
-.navbar {
-  height: 5rem;
-  background-color: black;
-  color: white;
-}
-.nav-link {
-  color: rgb(28, 46, 46);
-}
-.nav-link:hover {
-  text-decoration: underline;
-  color: gray;
-}
+
