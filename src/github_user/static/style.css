@@ -1,5 +1,5 @@
 :root {
-  --color-light: #ecf0f3;
+  --color-light: #eeeeee;
   --color-gray: #f8f9fcaf;
   --color-light-blue: #e3f2fd;
   --color-white: #fff;
@@ -10,6 +10,6 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  background-color:var(--color-gray);
+  background-color:var(--color-light);
 }
 
